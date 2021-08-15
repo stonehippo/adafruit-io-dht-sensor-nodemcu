@@ -13,7 +13,7 @@ These files need to get loaded onto the esp8266 for the application to work:
 - `net.lua`: Wifi setep
 - `net_secrets.lua`: Wifi credentials. You need to create this file; see `net_secrets.template` for the format
 - `mqtt.lua`: MQTTT broker connection and events
-- `mqtt_secrets.lua`: MQTT crendentials and the topic to subscribe to. Use `io_secrets.template` as the basis.
+- `mqtt_secrets.lua`: MQTT crendentials and the topic to subscribe to. Use `mqtt_secrets.template` as the basis.
 
 See https://nodemcu.readthedocs.io/en/latest/upload/ for help with uploading code.
 
