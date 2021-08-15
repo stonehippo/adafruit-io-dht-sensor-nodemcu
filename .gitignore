@@ -1,0 +1,4 @@
+# application credentials and secrets
+mqtt_secrets.lua
+net_secrets.lua
+
