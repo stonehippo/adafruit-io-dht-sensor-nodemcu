@@ -1,4 +1,4 @@
-# DHT temperature and humidity sensor PWM contro over MQTT on an esp8266
+# DHT temperature and humidity sensor over MQTT on an esp8266
 
 A simple remote sensor for temparature and humidity, using a DHTxx module and an esp8266 microcontroller. The app connects to an MQTT broker and publishes to a topic the current temp, humidity, and a timestamp (based on SNTP clock sync).
 
