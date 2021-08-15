@@ -2,7 +2,7 @@
 
 A simple remote sensor for temparature and humidity, using a DHTxx module and an esp8266 microcontroller. The app connects to an MQTT broker and publishes to a topic the current temp, humidity, and a timestamp (based on SNTP clock sync).
 
-While this app uses the MQTT broker provided by the [Adafruit IO](https://io.adafruit.com) service, any MQTT 3.1+ compatible broker should work. Edit the connection information in `io.lua` if you want to move to a different broker.
+While this app uses the MQTT broker provided by the [Adafruit IO](https://io.adafruit.com) service, any MQTT 3.1+ compatible broker should work. Edit the connection information in `mqtt.lua` if you want to move to a different broker.
 
 ## Application
 
